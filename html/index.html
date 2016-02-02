@@ -1,10 +1,36 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> MEAN Template </title>	
+		<title> MEAN Template </title>
+		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
-		<!-- Let's fill in some things -->
-
+		<nav>
+			<ul>
+				<li><a href="#">Have an account? Log in</a></li>
+				<li><a href="#">Language: English</a></li>
+			</ul>
+		</nav>
+		<div>
+			<h1>Join Twitter Today.</h1>
+		</div>
+	<div>
+		<form action="/signup" method="POST">
+			<label for="name"></label>
+			<input type="text" id="name" name="name" placeholder="Full name">
+		<div>
+			<lable for="Email or Phone Number"></label>
+			<input type="Email" id="Email or Phone Number" placeholder="Phone or Email">
+	</div>
+		<label for="password"></label>
+		<input type="pasword" id="email" name="password" placeholder="Enter your password">
+	</div>
+	<div>
+			<button type="submit">Signup</button>
+		</div>
+	</form>
+	By signing up, you agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy,</a>
+				<br>including <a href="#">Cookies Use.</a> Others will be able to find you by email or phone
+				<br> number when provided.
 	</body>
 </html>
